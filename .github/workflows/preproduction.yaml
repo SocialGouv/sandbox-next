@@ -5,6 +5,8 @@ on:
     branches:
       - "master"
       - "main"
+    tags-ignore:
+      - v*
 
 concurrency:
   cancel-in-progress: true
@@ -13,5 +15,5 @@ concurrency:
 jobs:
   kontinuous:
     name: "Deploy on Kubernetes 🐳"
-    uses: socialgouv/workflows/.github/workflows/use-ks-gh-preproduction.yaml@v1
+    uses: socialgouv/workflows/.github/workflows/use-ks-wh-preproduction.yaml@v1
     secrets: inherit
