@@ -1,14 +1,12 @@
-name: ♻️ Deactivate
+name: 👀 Review
 on:
-  pull_request:
-    types: [closed]
-  delete:
+  push:
     branches:
       - "**"
-      - "!v*"
       - "!master"
       - "!main"
-      - "!dev"
+      - "!feat/**"
+      - "!fix/**"
 
 concurrency:
   cancel-in-progress: true
@@ -16,5 +14,5 @@ concurrency:
 
 jobs:
   kontinuous:
-    uses: socialgouv/workflows/.github/workflows/use-ks-wh-deactivate.yaml@v1
+    uses: socialgouv/workflows/.github/workflows/use-ks-gh-review.yaml@v1
     secrets: inherit
