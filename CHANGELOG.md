@@ -1,3 +1,10 @@
+# 1.0.0 (2023-01-06)
+
+
+### Bug Fixes
+
+* move to workflows ([0eeeb08](https://github.com/SocialGouv/sandbox-next/commit/0eeeb08c39af8d3274c9507d3a7f455061eefdaa))
+
 ## [1.1.1](https://github.com/SocialGouv/sandbox/compare/v1.1.0...v1.1.1) (2022-12-13)
 
 
