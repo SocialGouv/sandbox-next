@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/SocialGouv/sandbox-next/compare/v1.0.0...v1.0.1) (2023-01-06)
+
+
+### Bug Fixes
+
+* rollback to wh ([71872b0](https://github.com/SocialGouv/sandbox-next/commit/71872b046e1eb147ccd8048ba06ce70b4a288d33))
+
 # 1.0.0 (2023-01-06)
 
 
