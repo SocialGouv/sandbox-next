@@ -1,3 +1,11 @@
+## [1.0.3](https://github.com/SocialGouv/sandbox-next/compare/v1.0.2...v1.0.3) (2025-01-07)
+
+
+### Bug Fixes
+
+* **ci-cd:** use token-bureau ([62a4da0](https://github.com/SocialGouv/sandbox-next/commit/62a4da0fdc07f10872f0847b50e1332e91c7c0fe))
+* **ci-cd:** use token-bureau ([75a561e](https://github.com/SocialGouv/sandbox-next/commit/75a561ef5a903c6c4736dbe2cc15467e024c3019))
+
 ## [1.0.2](https://github.com/SocialGouv/sandbox-next/compare/v1.0.1...v1.0.2) (2023-04-24)
 
 
